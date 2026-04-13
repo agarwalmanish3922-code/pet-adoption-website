@@ -1,0 +1,36 @@
+h2{
+    color: #d56f3e;
+}
+h1 span{
+    color:  #9d6f24;
+}
+.card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+h4{
+    text-align: right;
+    color: #3c787e;
+}
+@media (max-width: 768px) {
+    #pets{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
